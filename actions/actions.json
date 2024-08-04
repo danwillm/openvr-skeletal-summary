@@ -1,0 +1,27 @@
+{
+  "default_bindings": [
+	  {
+      "binding_url" : "bindings_svl_hand_interaction_augmented.json",
+      "controller_type" : "svl_hand_interaction_augmented"
+    }
+  ],
+  "action_sets": [
+    {
+      "name" : "/actions/default",
+      "usage" : "InputActionSetUsage_SingleController"
+    }
+  ],
+  "actions": [
+    {
+      "name": "/actions/default/in/skeleton_left", "type": "skeleton", "skeleton": "/skeleton/hand/left"
+    },
+    {
+      "name": "/actions/default/in/skeleton_right", "type": "skeleton", "skeleton": "/skeleton/hand/right"
+    }
+  ],
+  "localization": [
+    {
+      "language_tag": "en_US"
+    }
+  ]
+}
